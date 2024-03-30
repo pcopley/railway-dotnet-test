@@ -1,0 +1,7 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./docker1/Dockerfile"
+
+[deploy]
+startCommand = "dotnet docker1.dll"
+restartPolicyType = "never"
