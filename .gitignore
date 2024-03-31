@@ -400,3 +400,5 @@ FodyWeavers.xsd
 .idea
 **/bin
 **/obj
+
+.DS_Store
